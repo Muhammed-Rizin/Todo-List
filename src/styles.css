@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 550px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -35,6 +35,9 @@ body {
 }
 .btn:focus {
   outline: none;
+}
+.btn:hover {
+  color: white;
 }
 .btn:active {
   transform: scale(0.98);
